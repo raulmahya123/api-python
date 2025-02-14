@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "1196e61c-cf89-47ed-8cbb-f42444ad12f6",
+		"name": "API TESTING",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23896798",
+		"_collection_link": "https://interstellar-crescent-246765.postman.co/workspace/fancy~33208df9-80d2-4c9f-a9bf-17cfec8279cd/collection/23896798-1196e61c-cf89-47ed-8cbb-f42444ad12f6?action=share&source=collection_link&creator=23896798"
+	},
+	"item": [
+		{
+			"name": "API FOTO",
+			"item": [
+				{
+					"name": "api upload foto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/macintoshhd/Desktop/test_image.JPG"
+								}
+							]
+						},
+						"url": "http://127.0.0.1:5000/predict"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "API EXCEL",
+			"item": [
+				{
+					"name": "api upload excel",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/macintoshhd/Downloads/data_rumah.xlsx"
+								}
+							]
+						},
+						"url": "http://127.0.0.1:5000/upload"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
